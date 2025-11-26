@@ -1,4 +1,4 @@
-<h1 align="left">E aí, mano!</h1>
+<h1 align="left">sapere aude</h1>
 
 ###
 
