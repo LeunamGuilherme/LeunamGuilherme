@@ -1,4 +1,4 @@
-<h1 align="left">sapere aude</h1>
+<h1 align="left">𝚜𝚊𝚙𝚎𝚛𝚎 𝚊𝚞𝚍𝚎</h1>
 
 ###
 
