@@ -6,11 +6,10 @@
 <br><br>
 
 ### <code>guilherme@github ~ $ whoami</code>
-<table>
-  <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" /></td>
-  </tr>
-</table>
+
+<p float="left">
+  <img src="./avi-ascii.svg" width="370" align="top" />
+  <img src="./info-card.svg" width="480" align="top" />
+</p>
 
 </div>
