@@ -21,7 +21,7 @@
 
     with open(output_svg, "w", encoding="utf-8") as f:
         f.write(svg_content)
-    print(f"Cartão de informações gerado com sucesso em: {output_svg}")
+    print("info-card.svg atualizado com sucesso!")
 
 if __name__ == "__main__":
     generate_info_card()

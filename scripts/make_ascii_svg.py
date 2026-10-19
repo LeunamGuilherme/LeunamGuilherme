@@ -1,8 +1,8 @@
 ﻿import cv2
 
-RAMP = "@%#*+=-:. "  # Invertido para destacar os tons claros no fundo escuro do GitHub
+RAMP = "@%#*+=-:. "
 
-def image_to_ascii(img_path, width=90):
+def image_to_ascii(img_path, width=85):
     img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
     if img is None:
         raise FileNotFoundError(f"Imagem {img_path} não encontrada.")
@@ -38,7 +38,7 @@ def create_svg(ascii_grid, output_svg="avi-ascii.svg"):
     
     with open(output_svg, "w", encoding="utf-8") as f:
         f.write("\n".join(svg_lines))
-    print(f"SVG ASCII atualizado em: {output_svg}")
+    print("avi-ascii.svg atualizado com sucesso!")
 
 if __name__ == "__main__":
     grid = image_to_ascii("source-prepped.png", width=85)
