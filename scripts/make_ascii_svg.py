@@ -1,8 +1,8 @@
 ﻿import cv2
 
-RAMP = "@%#*+=-:. "
+RAMP = " .:-=+*cs#%@"
 
-def image_to_ascii(img_path, width=85):
+def image_to_ascii(img_path, width=75):
     img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
     if img is None:
         raise FileNotFoundError(f"Imagem {img_path} não encontrada.")
@@ -26,7 +26,7 @@ def create_svg(ascii_grid, output_svg="avi-ascii.svg"):
     svg_lines = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         '  <rect width="100%" height="100%" fill="#0d1117" rx="6"/>',
-        '  <text x="10" y="15" font-family="monospace" font-size="10" fill="#c9d1d9" xml:space="preserve">'
+        '  <text x="10" y="15" font-family="monospace" font-size="10" fill="#58a6ff" xml:space="preserve">'
     ]
     
     for i, line in enumerate(ascii_grid):
@@ -41,5 +41,5 @@ def create_svg(ascii_grid, output_svg="avi-ascii.svg"):
     print("avi-ascii.svg atualizado com sucesso!")
 
 if __name__ == "__main__":
-    grid = image_to_ascii("source-prepped.png", width=85)
+    grid = image_to_ascii("source-prepped.png", width=75)
     create_svg(grid)
