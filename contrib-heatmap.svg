@@ -167,7 +167,7 @@
   <rect x="328" y="44" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.45s;"/>
   <rect x="328" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.46s;"/>
   <rect x="328" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.47s;"/>
-  <rect x="328" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.48s;"/>
+  <rect x="328" y="86" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.48s;"/>
   <rect x="328" y="100" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.49s;"/>
   <rect x="328" y="114" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.50s;"/>
   <rect x="342" y="30" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.46s;"/>
