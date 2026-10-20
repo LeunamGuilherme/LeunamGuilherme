@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMX2oTgLxz+Td4lAC6b+t2W",
+      "authorship_tag": "ABX9TyNdiYjx4K06AqutRPZ09Lsv",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -108,12 +108,37 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "#1. Calculadora de Média (calculate_average)\n",
+        "def calculate_average(A, B , C):\n",
+        "  A = int(input('Type the first grade: '))\n",
+        "  B = int(input('Type the second grade: '))\n",
+        "  C = int(input('Type the third grade: '))\n",
+        "  nota = (A + B + C)/3\n",
+        "  print(f'Average is: {nota}')\n",
+        "\n",
+        "calculate_average(3,3,3)"
+      ],
       "metadata": {
-        "id": "Jq66y6xS4h10"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Jq66y6xS4h10",
+        "outputId": "31f2de2e-c26c-4daf-8ae1-a237d46cfcf0"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Type the first grade: 4\n",
+            "Type the second grade: 4\n",
+            "Type the third grade: 1\n",
+            "Average is: 3.0\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
