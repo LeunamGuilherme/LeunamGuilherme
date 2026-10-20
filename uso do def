@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOEz46a2BIH11fSkzDU+2LM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LeunamGuilherme/LeunamGuilherme/blob/main/uso%20do%20def\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1c-HhgM5ws9i",
+        "outputId": "837db806-8a29-41d9-f599-ca30cc1b5283"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O resultado é 6\n"
+          ]
+        }
+      ],
+      "source": [
+        "def somar_lista(*numeros):\n",
+        "  resultado = 0\n",
+        "  for numero in numeros:\n",
+        "      resultado += numero\n",
+        "  return resultado\n",
+        "\n",
+        "soma_da_lista = somar_lista(1, 2, 3 )\n",
+        "print(f'O resultado é {soma_da_lista}')\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def contagem_regressiva(numero):\n",
+        "  while numero > 0:\n",
+        "    print(numero)\n",
+        "    numero -=1\n",
+        "    if numero == 0:\n",
+        "      break\n",
+        "contagem_regressiva(10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6MJ6VxfryNrc",
+        "outputId": "3133ec7d-1dc0-4d1e-ea66-984727e46058"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
