@@ -114,7 +114,7 @@
   <rect x="216" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.32s;"/>
   <rect x="216" y="100" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.33s;"/>
   <rect x="216" y="114" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.34s;"/>
-  <rect x="230" y="30" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.30s;"/>
+  <rect x="230" y="30" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 0.30s;"/>
   <rect x="230" y="44" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.31s;"/>
   <rect x="230" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.32s;"/>
   <rect x="230" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.33s;"/>
@@ -219,8 +219,8 @@
   <rect x="426" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.62s;"/>
   <rect x="426" y="100" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.63s;"/>
   <rect x="426" y="114" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.64s;"/>
-  <rect x="440" y="30" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.60s;"/>
-  <rect x="440" y="44" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.61s;"/>
+  <rect x="440" y="30" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 0.60s;"/>
+  <rect x="440" y="44" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.61s;"/>
   <rect x="440" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.62s;"/>
   <rect x="440" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.63s;"/>
   <rect x="440" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.64s;"/>
@@ -323,9 +323,9 @@
   <rect x="636" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.91s;"/>
   <rect x="636" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.92s;"/>
   <rect x="636" y="100" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.93s;"/>
-  <rect x="636" y="114" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.94s;"/>
-  <rect x="650" y="30" width="11" height="11" rx="2" fill="#006d32" class="day" style="animation-delay: 0.90s;"/>
-  <rect x="650" y="44" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.91s;"/>
+  <rect x="636" y="114" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.94s;"/>
+  <rect x="650" y="30" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.90s;"/>
+  <rect x="650" y="44" width="11" height="11" rx="2" fill="#006d32" class="day" style="animation-delay: 0.91s;"/>
   <rect x="650" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.92s;"/>
   <rect x="650" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.93s;"/>
   <rect x="650" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.94s;"/>
@@ -376,5 +376,6 @@
   <rect x="748" y="30" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.04s;"/>
   <rect x="748" y="44" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.05s;"/>
   <rect x="748" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.06s;"/>
-  <rect x="748" y="72" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 1.07s;"/>
+  <rect x="748" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.07s;"/>
+  <rect x="748" y="86" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 1.08s;"/>
 </svg>
