@@ -326,7 +326,7 @@
   <rect x="636" y="114" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.94s;"/>
   <rect x="650" y="30" width="11" height="11" rx="2" fill="#39d353" class="day" style="animation-delay: 0.90s;"/>
   <rect x="650" y="44" width="11" height="11" rx="2" fill="#006d32" class="day" style="animation-delay: 0.91s;"/>
-  <rect x="650" y="58" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.92s;"/>
+  <rect x="650" y="58" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 0.92s;"/>
   <rect x="650" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.93s;"/>
   <rect x="650" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.94s;"/>
   <rect x="650" y="100" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 0.95s;"/>
@@ -379,4 +379,5 @@
   <rect x="748" y="72" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.07s;"/>
   <rect x="748" y="86" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.08s;"/>
   <rect x="748" y="100" width="11" height="11" rx="2" fill="#26a641" class="day" style="animation-delay: 1.09s;"/>
+  <rect x="748" y="114" width="11" height="11" rx="2" fill="#161b22" class="day" style="animation-delay: 1.10s;"/>
 </svg>
